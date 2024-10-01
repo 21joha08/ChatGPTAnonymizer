@@ -1,0 +1,5 @@
+package model;
+
+public enum TypeOfWord {
+    FIRSTNAME, LASTNAME, COMPANYNAME, SSN, PHONENUMBER, AMOUNT, LOCATION, EMAIL
+}
