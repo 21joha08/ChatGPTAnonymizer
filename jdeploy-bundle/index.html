@@ -12,8 +12,10 @@
 <script>
     // Start your application
     jdeploy.run({
-        jar: "examensarbete-EntityRefactor.jar", // Replace with the actual jar file name
-        // Other configurations as needed
+        jar: "examensarbete-EntityRefactor.jar",
+        onError: function(error) {
+            console.error("Failed to start JAR:", error);
+        }
     });
 </script>
 </body>
